@@ -1,0 +1,11 @@
+{
+  "measurement_id" : "CalumetBeach201508191000",
+  "measurement_timestamp" : "2015-08-19T10:00:00",
+  "measurement_timestamp_label" : "08/19/2015 10:00 AM",
+  "wave_period" : "2.0",
+  "turbidity" : "0.92",
+  "water_temperature" : "19.8",
+  "wave_height" : "0.09",
+  "battery_life" : "11.8",
+  "beach_name" : "Calumet Beach"
+}
