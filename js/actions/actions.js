@@ -6,13 +6,9 @@ var Actions = {
 
   getBeachStatus: function() {
     WebService.getBeachStatus().then(function(results) {
-      var beachWaterQuality = JSON.parse(results[0]);
-      var beachWeather = JSON.parse(results[1]);
-
       Dispatcher.dispatch({
         actionType: Constants.getBeachStatus,
-        beachWaterQuality: beachWaterQuality,
-        beachWeather: beachWeather
+        beachWaterQuality: JSON.parse(results)
       })
     }, function(error) {
       console.log(error);

@@ -1,5 +1,9 @@
 module.exports = {
 
+  cToF: function(c_temp) {
+    return Math.round(c_temp * (9/5) + 32);
+  },
+
   getBeachInfo: function(beachWaterQuality, beachName) {
     return beachWaterQuality.filter(function(beach) {
       return beach.beach_name == beachName;

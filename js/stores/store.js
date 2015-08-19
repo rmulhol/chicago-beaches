@@ -9,8 +9,7 @@ var Store = function() {
 
   emitBeachStatus = function(action) {
     self.emit(Constants.getBeachStatus, {
-      beachWaterQuality: action.beachWaterQuality,
-      beachWeather: action.beachWeather
+      beachWaterQuality: action.beachWaterQuality
     });
   };
 
