@@ -13,5 +13,5 @@ If not already installed, `npm install -g http-server`.
 ##How to Test
 Be sure Mocha is installed, then run `mocha` from the project directory.
 
-##Notes
-In progress. Check back later for more details.
+##Online
+Check out a running version of the project at http://rmulhol.github.io/chicago-beaches/
