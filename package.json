@@ -1,0 +1,24 @@
+{
+  "name": "chicago-beaches",
+  "version": "0.0.1",
+  "description": "Tells you whether it's a good time to hit up a beach in Chicago",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "browserify -t reactify js/app.js -o js/bundle.js",
+    "start": "watchify -t reactify js/app.js -o js/bundle.js"
+  },
+  "author": "Rob Mulholand",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.24.5",
+    "superagent": "^1.3.0"
+  },
+  "devDependencies": {
+    "browserify": "^11.0.1",
+    "reactify": "^1.1.1",
+    "watchify": "^3.3.1"
+  }
+}
