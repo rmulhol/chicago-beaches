@@ -1,5 +1,8 @@
 #Chicago Beaches
 
+#Closed
+Unfortunately, the city's API doesn't provide accurate data on beach water quality over the winter, so this app won't be able to provide useful data until it's back up and running in the summer of 2016.
+
 ##Description
 Time to go to the beach? Find out by taking a look at the water quality and temperature.
 
